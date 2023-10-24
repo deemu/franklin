@@ -4,7 +4,11 @@
 }
 
 .columns img {
-  width: 100%;
+  width: 50%;
+}
+
+.columns  {
+  background-color: red;
 }
 
 .columns > div > div {
