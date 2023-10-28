@@ -7,4 +7,18 @@
     .social-links ul >li{
         float: left;
         margin-left: 10px;
+        padding-right: 20px;
+    }
+    .social-links ul >li::before{
+        font: normal normal normal 14px/1 FontAwesome;
+        content: "\f09a";
+        padding-right: 10px;
+        font-size: 40px;
+    }
+    .social-links ul >li:first-child::before{
+        content: "\f099";
+    }
+
+    .social-links ul >li:last-child::before{
+        content: "\f16d";
     }
