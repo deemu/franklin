@@ -1,0 +1,10 @@
+.social-links ul,.social-links ul >li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-links ul >li{
+        float: left;
+        margin-left: 10px;
+    }
